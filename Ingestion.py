@@ -66,6 +66,6 @@ display(bronze_df)
 bronze_df.write\
     .format('delta')\
     .mode('overwrite')\
-    .saveAsTable("workspace.default.cricket_bronze_current_matches")
+    .saveAsTable("workspace1.default.cricket_bronze_current_matches")
 
 print("BRONZE TABLE CREATED SUCCESSFULLY")
